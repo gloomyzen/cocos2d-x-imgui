@@ -508,7 +508,7 @@ bool ImGui_ImplCocos2dx_Init(bool install_callbacks)
 	// We can honor io.WantSetMousePos requests (optional, rarely used)
     io.BackendFlags |= ImGuiBackendFlags_HasSetMousePos;
 	// We can create multi-viewports on the Platform side (optional)
-	io.BackendFlags |= ImGuiBackendFlags_PlatformHasViewports;
+//	io.BackendFlags |= ImGuiBackendFlags_PlatformHasViewports;
 #if GLFW_HAS_GLFW_HOVERED && CC_TARGET_PLATFORM == CC_PLATFORM_WIN32
 	// We can set io.MouseHoveredViewport correctly (optional, not easy)
 	io.BackendFlags |= ImGuiBackendFlags_HasMouseHoveredViewport;
