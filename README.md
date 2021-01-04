@@ -1,5 +1,7 @@
 # cocos2d-x-imgui
 
+# https://github.com/Xrysnow/cocos2d-x-imgui fork
+
 This project is [ImGui](https://github.com/ocornut/imgui) binding for [cocos2d-x](https://github.com/cocos2d/cocos2d-x), with most things bind to lua.
 
 Currently it works with [cocos2d-x 4.0](https://github.com/cocos2d/cocos2d-x/releases/tag/cocos2d-x-4.0) and ImGui docking branch. [Branch v3](https://github.com/Xrysnow/cocos2d-x-imgui/tree/v3) can work with cocos2d-x 3.x, but will not be maintained.
